@@ -5,6 +5,7 @@ class PeopleController < ApplicationController
   # GET /people or /people.json
   def index
     @people = Person.all
+    render json: @people, include: ['cars']
   end
 
   # GET /people/1 or /people/1.json
