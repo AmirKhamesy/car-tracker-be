@@ -1,24 +1,46 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Car tracker
 
-Things you may want to cover:
+Car tracker is a CRUD application that utilizes Ruby on rails for back-end related work and React for the front-end user interface.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Run Locally
 
-* Database creation
+Clone the project
 
-* Database initialization
+```bash
+  git clone hhttps://github.com/partrima/car-tracker-be.git
+```
 
-* How to run the test suite
+Go to the project directory
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+  cd car-tracker-be
+```
 
-* Deployment instructions
+Install dependencies
 
-* ...
+```bash
+  bundle install
+```
+
+Migrate database
+
+```bash
+  rails db:migrate
+```
+
+Start the server
+
+```bash
+  rails server
+```
+
+
+## Related
+
+Make sure to also clone and run the [Front-end repository](https://github.com/partrima/car-tracker-fe) to interact with application.
+
+
+
